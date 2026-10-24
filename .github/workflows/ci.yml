@@ -1,0 +1,42 @@
+name: Données
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pipeline:
+    name: Extraction, contrôles et analyse
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Extraire les tableaux des notes du HCP
+        run: python src/extract.py
+
+      - name: Contrôles de qualité des données
+        run: pytest -v
+
+      - name: Requêtes SQL, graphiques et rapport Excel
+        run: python src/analyze.py
+
+      - name: Les résultats publiés correspondent au code
+        run: git diff --exit-code -- data/processed/*.csv results/*.csv docs/data.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rapport
+          path: |
+            results/
+            figures/

@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chômage au Maroc</title>
+<meta name="description" content="Tableau de bord du chômage au Maroc par région, sexe, âge et diplôme, à partir des notes trimestrielles du HCP.">
+<style>
+  :root{
+    color-scheme: light;
+    --page:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --axis:#c3c2b7; --ring:rgba(11,11,11,.10);
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --down:#2a78d6; --up:#e34948;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --page:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink-2:#c3c2b7; --muted:#898781;
+      --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,.10);
+      --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --down:#3987e5; --up:#e66767;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --page:#0d0d0d; --surface:#1a1a19; --ink:#f0efec; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --ring:rgba(255,255,255,.10);
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --down:#3987e5; --up:#e66767;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--page);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45}
+  .wrap{max-width:1120px;margin:0 auto;padding:28px 16px 48px}
+  header h1{font-size:clamp(1.5rem,3vw,2.1rem);margin:0 0 6px;letter-spacing:-.01em}
+  header p{margin:0;color:var(--ink-2);max-width:760px}
+  .meta{font-size:.85rem;color:var(--muted);margin-top:8px}
+  .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0}
+  .tile{background:var(--surface);border:1px solid var(--ring);border-radius:12px;padding:16px}
+  .tile b{display:block;font-size:2rem;font-weight:700;letter-spacing:-.02em}
+  .tile span{font-size:.88rem;color:var(--ink-2)}
+  .tile small{display:block;margin-top:4px;font-size:.8rem;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{background:var(--surface);border:1px solid var(--ring);border-radius:12px;padding:18px 18px 12px;min-width:0}
+  .card h2{font-size:1.02rem;margin:0 0 2px}
+  .card p{margin:0 0 12px;font-size:.86rem;color:var(--ink-2)}
+  .chart{position:relative;height:330px}
+  .find{margin-top:24px;background:var(--surface);border:1px solid var(--ring);border-radius:12px;padding:18px 22px}
+  .find h2{font-size:1.05rem;margin:0 0 8px}
+  .find li{margin:6px 0}
+  details{margin-top:16px}
+  summary{cursor:pointer;color:var(--ink-2);font-size:.9rem}
+  table{border-collapse:collapse;width:100%;font-size:.86rem;margin-top:10px;font-variant-numeric:tabular-nums}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--grid)}
+  td.n,th.n{text-align:right}
+  footer{margin-top:28px;font-size:.82rem;color:var(--muted)}
+  footer a{color:var(--ink-2)}
+  @media (max-width:820px){.tiles{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Où est le chômage au Maroc, et qui touche-t-il&nbsp;?</h1>
+    <p>Tableau de bord construit à partir des notes trimestrielles du Haut-Commissariat au Plan (HCP) : chômage par région, par sexe, par âge et par diplôme.</p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <section class="tiles" id="tiles" aria-label="Chiffres clés"></section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Taux de chômage par région</h2>
+      <p id="sub-regions"></p>
+      <div class="chart"><canvas id="c-regions" role="img" aria-label="Taux de chômage par région"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Évolution en un an, par région</h2>
+      <p id="sub-evol"></p>
+      <div class="chart"><canvas id="c-evol" role="img" aria-label="Variation du taux de chômage par région en un an"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Qui est au chômage&nbsp;?</h2>
+      <p>Taux de chômage par sexe, âge et diplôme, en ville et à la campagne (%).</p>
+      <div class="chart"><canvas id="c-groupes" role="img" aria-label="Taux de chômage par groupe, urbain et rural"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Évolution trimestrielle</h2>
+      <p>Comparer le même trimestre d'une année à l'autre (effet saisonnier).</p>
+      <div class="chart"><canvas id="c-tendance" role="img" aria-label="Évolution trimestrielle du chômage"></canvas></div>
+    </div>
+  </section>
+
+  <section class="find">
+    <h2>Ce qu'il faut retenir</h2>
+    <ul id="findings"></ul>
+    <details>
+      <summary>Voir les données en tableau</summary>
+      <table id="t-regions"></table>
+    </details>
+  </section>
+
+  <footer>
+    Source : HCP, notes d'information sur la situation du marché du travail (T2 et T3 2025).
+    Code, données et méthode : <a href="https://github.com/mehdi20011999/chomage-maroc-analyse">github.com/mehdi20011999/chomage-maroc-analyse</a> · Mehdi AMMOU
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fr = (v, d = 1) => v.toLocaleString("fr-FR", {minimumFractionDigits: d, maximumFractionDigits: d});
+const lp = p => { const [a, t] = p.split("-T"); return `T${t} ${a}`; };
+
+fetch("data.json").then(r => r.json()).then(D => {
+  const nat = D.national;
+  const cls = D.classement_regions;
+  const evo = D.evolution_regions.filter(r => r.region !== "Ensemble");
+  const grp = D.chomage_par_groupe;
+  const tdn = D.tendance_nationale;
+  const last = tdn[tdn.length - 1];
+  const femmes = grp.find(g => g.categorie === "Femmes");
+  const jeunes = grp.find(g => g.categorie === "15-24 ans");
+  const dipl = grp.find(g => g.categorie === "Diplômés");
+  const nondipl = grp.find(g => g.categorie === "Non diplômés");
+  const rabat = evo.find(e => e.region === "Rabat-Salé-Kénitra");
+  const yearAgo = D.evolution_regions.find(e => e.region === "Ensemble");
+
+  document.getElementById("meta").textContent = `Dernier trimestre : ${D.derniere} · comparaison avec ${D.an_avant}`;
+  document.getElementById("sub-regions").textContent = `${D.derniere}, en %. Ligne : moyenne nationale (${fr(nat)} %).`;
+  document.getElementById("sub-evol").textContent = `${D.an_avant} → ${D.derniere}, en points. Bleu : baisse · rouge : hausse.`;
+
+  const tiles = [
+    [fr(nat) + " %", "Taux de chômage national", `${fr(yearAgo.variation_points, 1).replace(/^(?!-)/, "+")} pt en un an`],
+    [fr(femmes.ensemble) + " %", "Femmes", `contre ${fr(grp.find(g => g.categorie === "Hommes").ensemble)} % pour les hommes`],
+    [fr(jeunes.urbain) + " %", "Jeunes de 15-24 ans en ville", "près d'un sur deux"],
+    [fr(cls[0].taux_chomage) + " %", cls[0].region, "région la plus touchée"],
+  ];
+  document.getElementById("tiles").innerHTML = tiles.map(([v, l, s]) =>
+    `<div class="tile"><b>${v}</b><span>${l}</span><small>${s}</small></div>`).join("");
+
+  const findings = [
+    `<b>Un écart régional du simple au double.</b> ${cls[0].region} (${fr(cls[0].taux_chomage)} %) et ${cls[1].region} (${fr(cls[1].taux_chomage)} %) contre ${cls[cls.length-1].region} (${fr(cls[cls.length-1].taux_chomage)} %).`,
+    `<b>Les femmes et les jeunes urbains sont les plus touchés.</b> ${fr(femmes.urbain)} % des femmes actives en ville sont au chômage, et ${fr(jeunes.urbain)} % des actifs urbains de 15-24 ans.`,
+    `<b>Les diplômés sont quatre fois plus au chômage.</b> ${fr(dipl.ensemble)} % chez les diplômés contre ${fr(nondipl.ensemble)} % chez les non-diplômés.`,
+    `<b>Une baisse générale, sauf à Rabat-Salé-Kénitra</b> (${fr(rabat.variation_points).replace(/^(?!-)/, "+")} pt), alors que Drâa-Tafilalet recule de ${fr(-evo[0].variation_points)} pt.`,
+  ];
+  document.getElementById("findings").innerHTML = findings.map(f => `<li>${f}</li>`).join("");
+
+  document.getElementById("t-regions").innerHTML =
+    `<thead><tr><th>Région</th><th class="n">${D.an_avant}</th><th class="n">${D.derniere}</th><th class="n">Variation (pt)</th></tr></thead><tbody>` +
+    D.evolution_regions.slice().sort((a, b) => b.taux_dernier - a.taux_dernier).map(r =>
+      `<tr><td>${r.region}</td><td class="n">${fr(r.taux_an_avant)}</td><td class="n">${fr(r.taux_dernier)}</td><td class="n">${fr(r.variation_points).replace(/^(?!-)/, "+")}</td></tr>`).join("") + "</tbody>";
+
+  // ---- graphiques
+  Chart.defaults.font.family = 'system-ui,-apple-system,"Segoe UI",sans-serif';
+  Chart.defaults.color = css("--ink-2");
+  Chart.defaults.plugins.tooltip.callbacks.label = c => `${c.dataset.label ? c.dataset.label + " : " : ""}${fr(c.parsed.y ?? c.parsed.x)}`;
+  const axes = (beginAtZero = true) => ({
+    grid: {color: css("--grid")}, border: {color: css("--axis")}, beginAtZero,
+    ticks: {color: css("--muted")}
+  });
+  const noGrid = {grid: {display: false}, border: {color: css("--axis")}, ticks: {color: css("--ink-2")}};
+
+  const natLine = {
+    id: "natLine",
+    afterDatasetsDraw(chart) {
+      const x = chart.scales.x.getPixelForValue(nat), {top, bottom} = chart.chartArea, ctx = chart.ctx;
+      ctx.save(); ctx.setLineDash([4, 3]); ctx.strokeStyle = css("--ink-2"); ctx.lineWidth = 1.2;
+      ctx.beginPath(); ctx.moveTo(x, top); ctx.lineTo(x, bottom); ctx.stroke(); ctx.restore();
+    }
+  };
+
+  new Chart(document.getElementById("c-regions"), {
+    type: "bar",
+    data: {labels: cls.map(r => r.region), datasets: [{label: "Taux de chômage (%)", data: cls.map(r => r.taux_chomage),
+      backgroundColor: css("--s1"), borderRadius: 4, barPercentage: .78}]},
+    options: {indexAxis: "y", maintainAspectRatio: false, plugins: {legend: {display: false}},
+      scales: {x: axes(), y: noGrid}},
+    plugins: [natLine]
+  });
+
+  new Chart(document.getElementById("c-evol"), {
+    type: "bar",
+    data: {labels: evo.map(r => r.region), datasets: [{label: "Variation (points)", data: evo.map(r => r.variation_points),
+      backgroundColor: evo.map(r => r.variation_points > 0 ? css("--up") : css("--down")), borderRadius: 4, barPercentage: .78}]},
+    options: {indexAxis: "y", maintainAspectRatio: false, plugins: {legend: {display: false}},
+      scales: {x: axes(false), y: noGrid}}
+  });
+
+  new Chart(document.getElementById("c-groupes"), {
+    type: "bar",
+    data: {labels: grp.map(g => g.categorie), datasets: [
+      {label: "Urbain", data: grp.map(g => g.urbain), backgroundColor: css("--s1"), borderRadius: 4},
+      {label: "Rural", data: grp.map(g => g.rural), backgroundColor: css("--s2"), borderRadius: 4}]},
+    options: {maintainAspectRatio: false, plugins: {legend: {position: "top", align: "start", labels: {boxWidth: 8, boxHeight: 8, usePointStyle: true}}},
+      scales: {x: noGrid, y: axes()}}
+  });
+
+  const series = [["jeunes_15_24", "Jeunes 15-24 ans", "--s4"], ["femmes", "Femmes", "--s2"], ["ensemble", "Ensemble", "--s1"], ["hommes", "Hommes", "--s3"]];
+  new Chart(document.getElementById("c-tendance"), {
+    type: "line",
+    data: {labels: tdn.map(t => lp(t.periode)), datasets: series.map(([k, l, c]) => ({
+      label: l, data: tdn.map(t => t[k]), borderColor: css(c), backgroundColor: css(c), borderWidth: 2, pointRadius: 4, tension: 0}))},
+    options: {maintainAspectRatio: false, interaction: {mode: "index", intersect: false},
+      plugins: {legend: {position: "top", align: "start", labels: {boxWidth: 8, boxHeight: 8, usePointStyle: true}}},
+      scales: {x: noGrid, y: axes()}}
+  });
+});
+</script>
+</body>
+</html>

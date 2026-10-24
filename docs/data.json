@@ -1,0 +1,253 @@
+{
+ "derniere": "T3 2025",
+ "an_avant": "T3 2024",
+ "national": 13.1,
+ "classement_regions": [
+  {
+   "region": "Régions du Sud",
+   "taux_chomage": 21.4,
+   "ecart_national": 8.3,
+   "rang": 1
+  },
+  {
+   "region": "Oriental",
+   "taux_chomage": 21.2,
+   "ecart_national": 8.1,
+   "rang": 2
+  },
+  {
+   "region": "Fès-Meknès",
+   "taux_chomage": 15.3,
+   "ecart_national": 2.2,
+   "rang": 3
+  },
+  {
+   "region": "Casablanca-Settat",
+   "taux_chomage": 15.1,
+   "ecart_national": 2.0,
+   "rang": 4
+  },
+  {
+   "region": "Rabat-Salé-Kénitra",
+   "taux_chomage": 13.4,
+   "ecart_national": 0.3,
+   "rang": 5
+  },
+  {
+   "region": "Béni Mellal-Khénifra",
+   "taux_chomage": 10.8,
+   "ecart_national": -2.3,
+   "rang": 6
+  },
+  {
+   "region": "Drâa-Tafilalet",
+   "taux_chomage": 10.6,
+   "ecart_national": -2.5,
+   "rang": 7
+  },
+  {
+   "region": "Souss-Massa",
+   "taux_chomage": 9.9,
+   "ecart_national": -3.2,
+   "rang": 8
+  },
+  {
+   "region": "Marrakech-Safi",
+   "taux_chomage": 8.7,
+   "ecart_national": -4.4,
+   "rang": 9
+  },
+  {
+   "region": "Tanger-Tétouan-Al Hoceïma",
+   "taux_chomage": 8.6,
+   "ecart_national": -4.5,
+   "rang": 10
+  }
+ ],
+ "evolution_regions": [
+  {
+   "region": "Drâa-Tafilalet",
+   "taux_an_avant": 14.2,
+   "taux_dernier": 10.6,
+   "variation_points": -3.6
+  },
+  {
+   "region": "Régions du Sud",
+   "taux_an_avant": 24.3,
+   "taux_dernier": 21.4,
+   "variation_points": -2.9
+  },
+  {
+   "region": "Souss-Massa",
+   "taux_an_avant": 12.1,
+   "taux_dernier": 9.9,
+   "variation_points": -2.2
+  },
+  {
+   "region": "Tanger-Tétouan-Al Hoceïma",
+   "taux_an_avant": 9.9,
+   "taux_dernier": 8.6,
+   "variation_points": -1.3
+  },
+  {
+   "region": "Marrakech-Safi",
+   "taux_an_avant": 9.9,
+   "taux_dernier": 8.7,
+   "variation_points": -1.2
+  },
+  {
+   "region": "Béni Mellal-Khénifra",
+   "taux_an_avant": 11.7,
+   "taux_dernier": 10.8,
+   "variation_points": -0.9
+  },
+  {
+   "region": "Ensemble",
+   "taux_an_avant": 13.6,
+   "taux_dernier": 13.1,
+   "variation_points": -0.5
+  },
+  {
+   "region": "Casablanca-Settat",
+   "taux_an_avant": 15.3,
+   "taux_dernier": 15.1,
+   "variation_points": -0.2
+  },
+  {
+   "region": "Oriental",
+   "taux_an_avant": 21.4,
+   "taux_dernier": 21.2,
+   "variation_points": -0.2
+  },
+  {
+   "region": "Fès-Meknès",
+   "taux_an_avant": 15.2,
+   "taux_dernier": 15.3,
+   "variation_points": 0.1
+  },
+  {
+   "region": "Rabat-Salé-Kénitra",
+   "taux_an_avant": 11.9,
+   "taux_dernier": 13.4,
+   "variation_points": 1.5
+  }
+ ],
+ "chomage_par_groupe": [
+  {
+   "dimension": "sexe",
+   "categorie": "Femmes",
+   "urbain": 26.3,
+   "rural": 9.5,
+   "ensemble": 21.6
+  },
+  {
+   "dimension": "sexe",
+   "categorie": "Hommes",
+   "urbain": 13.0,
+   "rural": 6.3,
+   "ensemble": 10.6
+  },
+  {
+   "dimension": "age",
+   "categorie": "15-24 ans",
+   "urbain": 48.2,
+   "rural": 24.3,
+   "ensemble": 38.4
+  },
+  {
+   "dimension": "age",
+   "categorie": "25-34 ans",
+   "urbain": 25.6,
+   "rural": 9.3,
+   "ensemble": 20.8
+  },
+  {
+   "dimension": "age",
+   "categorie": "35-44 ans",
+   "urbain": 8.7,
+   "rural": 2.9,
+   "ensemble": 6.9
+  },
+  {
+   "dimension": "age",
+   "categorie": "45 ans et plus",
+   "urbain": 4.6,
+   "rural": 2.0,
+   "ensemble": 3.6
+  },
+  {
+   "dimension": "diplome",
+   "categorie": "Diplômés",
+   "urbain": 20.5,
+   "rural": 13.5,
+   "ensemble": 19.0
+  },
+  {
+   "dimension": "diplome",
+   "categorie": "Non diplômés",
+   "urbain": 6.4,
+   "rural": 3.1,
+   "ensemble": 4.7
+  }
+ ],
+ "tendance_nationale": [
+  {
+   "periode": "2024-T2",
+   "ensemble": 13.1,
+   "femmes": 17.7,
+   "hommes": 11.7,
+   "jeunes_15_24": 36.1,
+   "diplomes": 19.4
+  },
+  {
+   "periode": "2024-T3",
+   "ensemble": 13.6,
+   "femmes": 20.8,
+   "hommes": 11.6,
+   "jeunes_15_24": 39.5,
+   "diplomes": 19.8
+  },
+  {
+   "periode": "2025-T2",
+   "ensemble": 12.8,
+   "femmes": 19.9,
+   "hommes": 10.8,
+   "jeunes_15_24": 35.8,
+   "diplomes": 19.0
+  },
+  {
+   "periode": "2025-T3",
+   "ensemble": 13.1,
+   "femmes": 21.6,
+   "hommes": 10.6,
+   "jeunes_15_24": 38.4,
+   "diplomes": 19.0
+  }
+ ],
+ "sous_emploi": [
+  {
+   "periode": "2024-T2",
+   "urbain": 8.3,
+   "rural": 11.6,
+   "ensemble": 9.6
+  },
+  {
+   "periode": "2024-T3",
+   "urbain": 8.8,
+   "rural": 12.0,
+   "ensemble": 10.0
+  },
+  {
+   "periode": "2025-T2",
+   "urbain": 9.4,
+   "rural": 12.4,
+   "ensemble": 10.6
+  },
+  {
+   "periode": "2025-T3",
+   "urbain": 9.5,
+   "rural": 13.8,
+   "ensemble": 11.1
+  }
+ ]
+}

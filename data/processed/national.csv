@@ -1,0 +1,457 @@
+periode,indicateur,dimension,categorie,milieu,valeur,source
+2024-T2,part_emploi_remunere,statut,Auto-employés,Ensemble,34.9,emploi_t2_2025_fr.docx
+2024-T2,part_emploi_remunere,statut,Auto-employés,Rural,47.5,emploi_t2_2025_fr.docx
+2024-T2,part_emploi_remunere,statut,Auto-employés,Urbain,28.7,emploi_t2_2025_fr.docx
+2024-T2,part_emploi_remunere,statut,Ensemble,Ensemble,88.8,emploi_t2_2025_fr.docx
+2024-T2,part_emploi_remunere,statut,Ensemble,Rural,74.7,emploi_t2_2025_fr.docx
+2024-T2,part_emploi_remunere,statut,Ensemble,Urbain,97.7,emploi_t2_2025_fr.docx
+2024-T2,part_emploi_remunere,statut,Salariés,Ensemble,65.1,emploi_t2_2025_fr.docx
+2024-T2,part_emploi_remunere,statut,Salariés,Rural,52.5,emploi_t2_2025_fr.docx
+2024-T2,part_emploi_remunere,statut,Salariés,Urbain,71.3,emploi_t2_2025_fr.docx
+2024-T2,pop_active_milliers,ensemble,Ensemble,Ensemble,12490.0,emploi_t2_2025_fr.docx
+2024-T2,pop_active_milliers,ensemble,Ensemble,Rural,4524.0,emploi_t2_2025_fr.docx
+2024-T2,pop_active_milliers,ensemble,Ensemble,Urbain,7966.0,emploi_t2_2025_fr.docx
+2024-T2,pop_chomage_milliers,ensemble,Ensemble,Ensemble,1633.0,emploi_t2_2025_fr.docx
+2024-T2,pop_chomage_milliers,ensemble,Ensemble,Rural,305.0,emploi_t2_2025_fr.docx
+2024-T2,pop_chomage_milliers,ensemble,Ensemble,Urbain,1328.0,emploi_t2_2025_fr.docx
+2024-T2,pop_occupee_milliers,ensemble,Ensemble,Ensemble,10858.0,emploi_t2_2025_fr.docx
+2024-T2,pop_occupee_milliers,ensemble,Ensemble,Rural,4219.0,emploi_t2_2025_fr.docx
+2024-T2,pop_occupee_milliers,ensemble,Ensemble,Urbain,6638.0,emploi_t2_2025_fr.docx
+2024-T2,pop_sous_emploi_milliers,ensemble,Ensemble,Ensemble,1042.0,emploi_t2_2025_fr.docx
+2024-T2,pop_sous_emploi_milliers,ensemble,Ensemble,Rural,490.0,emploi_t2_2025_fr.docx
+2024-T2,pop_sous_emploi_milliers,ensemble,Ensemble,Urbain,552.0,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,Activités non déterminées,Ensemble,0.0,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,Activités non déterminées,Rural,0.0,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,Activités non déterminées,Urbain,0.0,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,"Agriculture, forêt et pêche",Ensemble,27.4,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,"Agriculture, forêt et pêche",Rural,63.9,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,"Agriculture, forêt et pêche",Urbain,4.3,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,BTP,Ensemble,10.8,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,BTP,Rural,10.2,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,BTP,Urbain,11.2,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,Industrie (y compris artisanat),Ensemble,12.8,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,Industrie (y compris artisanat),Rural,5.6,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,Industrie (y compris artisanat),Urbain,17.4,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,Services,Ensemble,48.9,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,Services,Rural,20.4,emploi_t2_2025_fr.docx
+2024-T2,structure_emploi,secteur,Services,Urbain,67.1,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,15-24 ans,Ensemble,22.8,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,15-24 ans,Rural,25.4,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,15-24 ans,Urbain,21.0,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,25-34 ans,Ensemble,60.3,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,25-34 ans,Rural,60.1,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,25-34 ans,Urbain,60.4,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,35-44 ans,Ensemble,59.7,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,35-44 ans,Rural,63.9,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,35-44 ans,Urbain,57.9,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,45 ans et plus,Ensemble,40.0,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,45 ans et plus,Rural,49.8,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,age,45 ans et plus,Urbain,35.3,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,diplome,Diplômés,Ensemble,46.6,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,diplome,Diplômés,Rural,43.9,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,diplome,Diplômés,Urbain,47.4,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,diplome,Non diplômés,Ensemble,41.6,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,diplome,Non diplômés,Rural,50.3,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,diplome,Non diplômés,Urbain,34.4,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,ensemble,Ensemble,Ensemble,44.2,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,ensemble,Ensemble,Rural,48.0,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,ensemble,Ensemble,Urbain,42.3,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,sexe,Femmes,Ensemble,20.1,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,sexe,Femmes,Rural,21.6,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,sexe,Femmes,Urbain,19.3,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,sexe,Hommes,Ensemble,69.0,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,sexe,Hommes,Rural,73.3,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,sexe,Hommes,Urbain,66.8,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,15-24 ans,Ensemble,36.1,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,15-24 ans,Rural,20.2,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,15-24 ans,Urbain,48.8,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,25-34 ans,Ensemble,21.4,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,25-34 ans,Rural,10.0,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,25-34 ans,Urbain,26.6,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,35-44 ans,Ensemble,7.3,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,35-44 ans,Rural,3.3,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,35-44 ans,Urbain,9.2,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,45 ans et plus,Ensemble,3.7,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,45 ans et plus,Rural,2.3,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,age,45 ans et plus,Urbain,4.6,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,diplome,Diplômés,Ensemble,19.4,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,diplome,Diplômés,Rural,13.7,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,diplome,Diplômés,Urbain,21.0,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,diplome,Non diplômés,Ensemble,5.3,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,diplome,Non diplômés,Rural,3.4,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,diplome,Non diplômés,Urbain,7.6,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,ensemble,Ensemble,Ensemble,13.1,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,ensemble,Ensemble,Rural,6.7,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,ensemble,Ensemble,Urbain,16.7,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,sexe,Femmes,Ensemble,17.7,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,sexe,Femmes,Rural,5.1,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,sexe,Femmes,Urbain,24.4,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,sexe,Hommes,Ensemble,11.7,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,sexe,Hommes,Rural,7.2,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,sexe,Hommes,Urbain,14.3,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,ensemble,Ensemble,Ensemble,38.4,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,ensemble,Ensemble,Rural,44.8,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,ensemble,Ensemble,Urbain,35.3,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,sexe,Femmes,Ensemble,16.5,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,sexe,Femmes,Rural,20.5,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,sexe,Femmes,Urbain,14.6,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,sexe,Hommes,Ensemble,61.0,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,sexe,Hommes,Rural,68.0,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,sexe,Hommes,Urbain,57.2,emploi_t2_2025_fr.docx
+2024-T2,taux_feminisation_actifs,ensemble,Ensemble,Ensemble,23.0,emploi_t2_2025_fr.docx
+2024-T2,taux_feminisation_actifs,ensemble,Ensemble,Rural,22.0,emploi_t2_2025_fr.docx
+2024-T2,taux_feminisation_actifs,ensemble,Ensemble,Urbain,23.5,emploi_t2_2025_fr.docx
+2024-T2,taux_feminisation_chomeurs,ensemble,Ensemble,Ensemble,31.2,emploi_t2_2025_fr.docx
+2024-T2,taux_feminisation_chomeurs,ensemble,Ensemble,Rural,16.6,emploi_t2_2025_fr.docx
+2024-T2,taux_feminisation_chomeurs,ensemble,Ensemble,Urbain,34.5,emploi_t2_2025_fr.docx
+2024-T2,taux_sous_emploi,ensemble,Ensemble,Ensemble,9.6,emploi_t2_2025_fr.docx
+2024-T2,taux_sous_emploi,ensemble,Ensemble,Rural,11.6,emploi_t2_2025_fr.docx
+2024-T2,taux_sous_emploi,ensemble,Ensemble,Urbain,8.3,emploi_t2_2025_fr.docx
+2024-T2,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Ensemble,4.2,emploi_t2_2025_fr.docx
+2024-T2,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Rural,4.2,emploi_t2_2025_fr.docx
+2024-T2,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Urbain,4.2,emploi_t2_2025_fr.docx
+2024-T2,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Ensemble,5.4,emploi_t2_2025_fr.docx
+2024-T2,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Rural,7.4,emploi_t2_2025_fr.docx
+2024-T2,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Urbain,4.1,emploi_t2_2025_fr.docx
+2024-T3,part_emploi_remunere,statut,Auto-employés,Ensemble,33.4,emploi_t3_2025_fr.docx
+2024-T3,part_emploi_remunere,statut,Auto-employés,Rural,44.4,emploi_t3_2025_fr.docx
+2024-T3,part_emploi_remunere,statut,Auto-employés,Urbain,28.1,emploi_t3_2025_fr.docx
+2024-T3,part_emploi_remunere,statut,Ensemble,Ensemble,90.8,emploi_t3_2025_fr.docx
+2024-T3,part_emploi_remunere,statut,Ensemble,Rural,79.1,emploi_t3_2025_fr.docx
+2024-T3,part_emploi_remunere,statut,Ensemble,Urbain,97.8,emploi_t3_2025_fr.docx
+2024-T3,part_emploi_remunere,statut,Salariés,Ensemble,66.6,emploi_t3_2025_fr.docx
+2024-T3,part_emploi_remunere,statut,Salariés,Rural,55.6,emploi_t3_2025_fr.docx
+2024-T3,part_emploi_remunere,statut,Salariés,Urbain,71.9,emploi_t3_2025_fr.docx
+2024-T3,pop_active_milliers,ensemble,Ensemble,Ensemble,12349.0,emploi_t3_2025_fr.docx
+2024-T3,pop_active_milliers,ensemble,Ensemble,Rural,4304.0,emploi_t3_2025_fr.docx
+2024-T3,pop_active_milliers,ensemble,Ensemble,Urbain,8045.0,emploi_t3_2025_fr.docx
+2024-T3,pop_chomage_milliers,ensemble,Ensemble,Ensemble,1683.0,emploi_t3_2025_fr.docx
+2024-T3,pop_chomage_milliers,ensemble,Ensemble,Rural,319.0,emploi_t3_2025_fr.docx
+2024-T3,pop_chomage_milliers,ensemble,Ensemble,Urbain,1364.0,emploi_t3_2025_fr.docx
+2024-T3,pop_occupee_milliers,ensemble,Ensemble,Ensemble,10666.0,emploi_t3_2025_fr.docx
+2024-T3,pop_occupee_milliers,ensemble,Ensemble,Rural,3985.0,emploi_t3_2025_fr.docx
+2024-T3,pop_occupee_milliers,ensemble,Ensemble,Urbain,6681.0,emploi_t3_2025_fr.docx
+2024-T3,pop_sous_emploi_milliers,ensemble,Ensemble,Ensemble,1066.0,emploi_t3_2025_fr.docx
+2024-T3,pop_sous_emploi_milliers,ensemble,Ensemble,Rural,476.0,emploi_t3_2025_fr.docx
+2024-T3,pop_sous_emploi_milliers,ensemble,Ensemble,Urbain,590.0,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,Activités non déterminées,Ensemble,0.1,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,Activités non déterminées,Rural,0.0,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,Activités non déterminées,Urbain,0.1,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,"Agriculture, forêt et pêche",Ensemble,24.3,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,"Agriculture, forêt et pêche",Rural,58.2,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,"Agriculture, forêt et pêche",Urbain,4.0,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,BTP,Ensemble,12.0,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,BTP,Rural,13.4,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,BTP,Urbain,11.1,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,Industrie (y compris artisanat),Ensemble,12.4,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,Industrie (y compris artisanat),Rural,5.3,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,Industrie (y compris artisanat),Urbain,16.6,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,Services,Ensemble,51.3,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,Services,Rural,23.1,emploi_t3_2025_fr.docx
+2024-T3,structure_emploi,secteur,Services,Urbain,68.2,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,15-24 ans,Ensemble,22.6,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,15-24 ans,Rural,23.9,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,15-24 ans,Urbain,21.7,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,25-34 ans,Ensemble,61.1,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,25-34 ans,Rural,58.8,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,25-34 ans,Urbain,62.2,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,35-44 ans,Ensemble,57.9,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,35-44 ans,Rural,60.1,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,35-44 ans,Urbain,56.9,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,45 ans et plus,Ensemble,38.9,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,45 ans et plus,Rural,46.9,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,age,45 ans et plus,Urbain,35.1,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,diplome,Diplômés,Ensemble,47.2,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,diplome,Diplômés,Rural,43.3,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,diplome,Diplômés,Urbain,48.4,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,diplome,Non diplômés,Ensemble,39.5,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,diplome,Non diplômés,Rural,47.0,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,diplome,Non diplômés,Urbain,33.3,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,ensemble,Ensemble,Ensemble,43.6,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,ensemble,Ensemble,Rural,45.7,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,ensemble,Ensemble,Urbain,42.5,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,sexe,Femmes,Ensemble,19.2,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,sexe,Femmes,Rural,17.3,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,sexe,Femmes,Urbain,20.1,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,sexe,Hommes,Ensemble,68.6,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,sexe,Hommes,Rural,72.8,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,sexe,Hommes,Urbain,66.4,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,15-24 ans,Ensemble,39.5,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,15-24 ans,Rural,24.7,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,15-24 ans,Urbain,50.3,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,25-34 ans,Ensemble,20.9,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,25-34 ans,Rural,9.0,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,25-34 ans,Urbain,25.9,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,35-44 ans,Ensemble,7.7,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,35-44 ans,Rural,4.2,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,35-44 ans,Urbain,9.3,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,45 ans et plus,Ensemble,4.1,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,45 ans et plus,Rural,2.6,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,age,45 ans et plus,Urbain,5.1,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,diplome,Diplômés,Ensemble,19.8,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,diplome,Diplômés,Rural,14.0,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,diplome,Diplômés,Urbain,21.3,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,diplome,Non diplômés,Ensemble,5.5,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,diplome,Non diplômés,Rural,4.0,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,diplome,Non diplômés,Urbain,7.2,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,ensemble,Ensemble,Ensemble,13.6,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,ensemble,Ensemble,Rural,7.4,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,ensemble,Ensemble,Urbain,17.0,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,sexe,Femmes,Ensemble,20.8,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,sexe,Femmes,Rural,7.6,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,sexe,Femmes,Urbain,26.1,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,sexe,Hommes,Ensemble,11.6,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,sexe,Hommes,Rural,7.4,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,sexe,Hommes,Urbain,14.0,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,ensemble,Ensemble,Ensemble,37.6,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,ensemble,Ensemble,Rural,42.3,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,ensemble,Ensemble,Urbain,35.3,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,sexe,Femmes,Ensemble,15.2,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,sexe,Femmes,Rural,15.9,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,sexe,Femmes,Urbain,14.8,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,sexe,Hommes,Ensemble,60.7,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,sexe,Hommes,Rural,67.5,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,sexe,Hommes,Urbain,57.1,emploi_t3_2025_fr.docx
+2024-T3,taux_feminisation_actifs,ensemble,Ensemble,Ensemble,22.3,emploi_t3_2025_fr.docx
+2024-T3,taux_feminisation_actifs,ensemble,Ensemble,Rural,18.5,emploi_t3_2025_fr.docx
+2024-T3,taux_feminisation_actifs,ensemble,Ensemble,Urbain,24.3,emploi_t3_2025_fr.docx
+2024-T3,taux_feminisation_chomeurs,ensemble,Ensemble,Ensemble,34.0,emploi_t3_2025_fr.docx
+2024-T3,taux_feminisation_chomeurs,ensemble,Ensemble,Rural,19.0,emploi_t3_2025_fr.docx
+2024-T3,taux_feminisation_chomeurs,ensemble,Ensemble,Urbain,37.5,emploi_t3_2025_fr.docx
+2024-T3,taux_sous_emploi,ensemble,Ensemble,Ensemble,10.0,emploi_t3_2025_fr.docx
+2024-T3,taux_sous_emploi,ensemble,Ensemble,Rural,12.0,emploi_t3_2025_fr.docx
+2024-T3,taux_sous_emploi,ensemble,Ensemble,Urbain,8.8,emploi_t3_2025_fr.docx
+2024-T3,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Ensemble,4.5,emploi_t3_2025_fr.docx
+2024-T3,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Rural,4.4,emploi_t3_2025_fr.docx
+2024-T3,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Urbain,4.6,emploi_t3_2025_fr.docx
+2024-T3,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Ensemble,5.5,emploi_t3_2025_fr.docx
+2024-T3,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Rural,7.6,emploi_t3_2025_fr.docx
+2024-T3,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Urbain,4.2,emploi_t3_2025_fr.docx
+2025-T2,part_emploi_remunere,statut,Auto-employés,Ensemble,33.0,emploi_t2_2025_fr.docx
+2025-T2,part_emploi_remunere,statut,Auto-employés,Rural,43.5,emploi_t2_2025_fr.docx
+2025-T2,part_emploi_remunere,statut,Auto-employés,Urbain,28.0,emploi_t2_2025_fr.docx
+2025-T2,part_emploi_remunere,statut,Ensemble,Ensemble,89.9,emploi_t2_2025_fr.docx
+2025-T2,part_emploi_remunere,statut,Ensemble,Rural,76.8,emploi_t2_2025_fr.docx
+2025-T2,part_emploi_remunere,statut,Ensemble,Urbain,97.9,emploi_t2_2025_fr.docx
+2025-T2,part_emploi_remunere,statut,Salariés,Ensemble,67.0,emploi_t2_2025_fr.docx
+2025-T2,part_emploi_remunere,statut,Salariés,Rural,56.5,emploi_t2_2025_fr.docx
+2025-T2,part_emploi_remunere,statut,Salariés,Urbain,72.0,emploi_t2_2025_fr.docx
+2025-T2,pop_active_milliers,ensemble,Ensemble,Ensemble,12458.0,emploi_t2_2025_fr.docx
+2025-T2,pop_active_milliers,ensemble,Ensemble,Rural,4383.0,emploi_t2_2025_fr.docx
+2025-T2,pop_active_milliers,ensemble,Ensemble,Urbain,8074.0,emploi_t2_2025_fr.docx
+2025-T2,pop_chomage_milliers,ensemble,Ensemble,Ensemble,1595.0,emploi_t2_2025_fr.docx
+2025-T2,pop_chomage_milliers,ensemble,Ensemble,Rural,272.0,emploi_t2_2025_fr.docx
+2025-T2,pop_chomage_milliers,ensemble,Ensemble,Urbain,1323.0,emploi_t2_2025_fr.docx
+2025-T2,pop_occupee_milliers,ensemble,Ensemble,Ensemble,10863.0,emploi_t2_2025_fr.docx
+2025-T2,pop_occupee_milliers,ensemble,Ensemble,Rural,4112.0,emploi_t2_2025_fr.docx
+2025-T2,pop_occupee_milliers,ensemble,Ensemble,Urbain,6751.0,emploi_t2_2025_fr.docx
+2025-T2,pop_sous_emploi_milliers,ensemble,Ensemble,Ensemble,1147.0,emploi_t2_2025_fr.docx
+2025-T2,pop_sous_emploi_milliers,ensemble,Ensemble,Rural,512.0,emploi_t2_2025_fr.docx
+2025-T2,pop_sous_emploi_milliers,ensemble,Ensemble,Urbain,635.0,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,Activités non déterminées,Ensemble,0.0,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,Activités non déterminées,Rural,0.0,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,Activités non déterminées,Urbain,0.1,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,"Agriculture, forêt et pêche",Ensemble,26.4,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,"Agriculture, forêt et pêche",Rural,63.1,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,"Agriculture, forêt et pêche",Urbain,4.1,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,BTP,Ensemble,11.5,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,BTP,Rural,11.2,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,BTP,Urbain,11.7,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,Industrie (y compris artisanat),Ensemble,12.8,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,Industrie (y compris artisanat),Rural,5.5,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,Industrie (y compris artisanat),Urbain,17.3,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,Services,Ensemble,49.2,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,Services,Rural,20.2,emploi_t2_2025_fr.docx
+2025-T2,structure_emploi,secteur,Services,Urbain,66.9,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,15-24 ans,Ensemble,21.5,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,15-24 ans,Rural,23.5,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,15-24 ans,Urbain,20.1,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,25-34 ans,Ensemble,60.7,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,25-34 ans,Rural,59.1,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,25-34 ans,Urbain,61.4,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,35-44 ans,Ensemble,58.7,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,35-44 ans,Rural,61.7,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,35-44 ans,Urbain,57.5,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,45 ans et plus,Ensemble,39.1,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,45 ans et plus,Rural,48.2,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,age,45 ans et plus,Urbain,34.8,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,diplome,Diplômés,Ensemble,46.4,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,diplome,Diplômés,Rural,42.7,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,diplome,Diplômés,Urbain,47.5,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,diplome,Non diplômés,Ensemble,40.1,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,diplome,Non diplômés,Rural,48.5,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,diplome,Non diplômés,Urbain,33.3,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,ensemble,Ensemble,Ensemble,43.4,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,ensemble,Ensemble,Rural,46.4,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,ensemble,Ensemble,Urbain,42.0,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,sexe,Femmes,Ensemble,18.9,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,sexe,Femmes,Rural,18.8,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,sexe,Femmes,Urbain,19.0,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,sexe,Hommes,Ensemble,68.6,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,sexe,Hommes,Rural,72.7,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,sexe,Hommes,Urbain,66.5,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,15-24 ans,Ensemble,35.8,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,15-24 ans,Rural,21.3,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,15-24 ans,Urbain,46.9,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,25-34 ans,Ensemble,21.9,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,25-34 ans,Rural,9.0,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,25-34 ans,Urbain,27.5,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,35-44 ans,Ensemble,7.0,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,35-44 ans,Rural,2.9,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,35-44 ans,Urbain,8.9,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,45 ans et plus,Ensemble,3.3,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,45 ans et plus,Rural,1.7,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,age,45 ans et plus,Urbain,4.3,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,diplome,Diplômés,Ensemble,19.0,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,diplome,Diplômés,Rural,13.1,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,diplome,Diplômés,Urbain,20.6,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,diplome,Non diplômés,Ensemble,4.6,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,diplome,Non diplômés,Rural,2.6,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,diplome,Non diplômés,Urbain,6.8,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,ensemble,Ensemble,Ensemble,12.8,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,ensemble,Ensemble,Rural,6.2,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,ensemble,Ensemble,Urbain,16.4,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,sexe,Femmes,Ensemble,19.9,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,sexe,Femmes,Rural,6.5,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,sexe,Femmes,Urbain,26.1,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,sexe,Hommes,Ensemble,10.8,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,sexe,Hommes,Rural,6.1,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,sexe,Hommes,Urbain,13.4,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,ensemble,Ensemble,Ensemble,37.9,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,ensemble,Ensemble,Rural,43.5,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,ensemble,Ensemble,Urbain,35.1,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,sexe,Femmes,Ensemble,15.2,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,sexe,Femmes,Rural,17.6,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,sexe,Femmes,Urbain,14.1,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,sexe,Hommes,Ensemble,61.2,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,sexe,Hommes,Rural,68.2,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,sexe,Hommes,Urbain,57.5,emploi_t2_2025_fr.docx
+2025-T2,taux_feminisation_actifs,ensemble,Ensemble,Ensemble,22.1,emploi_t2_2025_fr.docx
+2025-T2,taux_feminisation_actifs,ensemble,Ensemble,Rural,19.8,emploi_t2_2025_fr.docx
+2025-T2,taux_feminisation_actifs,ensemble,Ensemble,Urbain,23.4,emploi_t2_2025_fr.docx
+2025-T2,taux_feminisation_chomeurs,ensemble,Ensemble,Ensemble,34.4,emploi_t2_2025_fr.docx
+2025-T2,taux_feminisation_chomeurs,ensemble,Ensemble,Rural,20.8,emploi_t2_2025_fr.docx
+2025-T2,taux_feminisation_chomeurs,ensemble,Ensemble,Urbain,37.2,emploi_t2_2025_fr.docx
+2025-T2,taux_sous_emploi,ensemble,Ensemble,Ensemble,10.6,emploi_t2_2025_fr.docx
+2025-T2,taux_sous_emploi,ensemble,Ensemble,Rural,12.4,emploi_t2_2025_fr.docx
+2025-T2,taux_sous_emploi,ensemble,Ensemble,Urbain,9.4,emploi_t2_2025_fr.docx
+2025-T2,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Ensemble,5.0,emploi_t2_2025_fr.docx
+2025-T2,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Rural,5.2,emploi_t2_2025_fr.docx
+2025-T2,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Urbain,4.9,emploi_t2_2025_fr.docx
+2025-T2,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Ensemble,5.5,emploi_t2_2025_fr.docx
+2025-T2,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Rural,7.2,emploi_t2_2025_fr.docx
+2025-T2,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Urbain,4.5,emploi_t2_2025_fr.docx
+2025-T3,part_emploi_remunere,statut,Auto-employés,Ensemble,32.0,emploi_t3_2025_fr.docx
+2025-T3,part_emploi_remunere,statut,Auto-employés,Rural,42.8,emploi_t3_2025_fr.docx
+2025-T3,part_emploi_remunere,statut,Auto-employés,Urbain,26.9,emploi_t3_2025_fr.docx
+2025-T3,part_emploi_remunere,statut,Ensemble,Ensemble,91.5,emploi_t3_2025_fr.docx
+2025-T3,part_emploi_remunere,statut,Ensemble,Rural,80.4,emploi_t3_2025_fr.docx
+2025-T3,part_emploi_remunere,statut,Ensemble,Urbain,98.0,emploi_t3_2025_fr.docx
+2025-T3,part_emploi_remunere,statut,Salariés,Ensemble,68.0,emploi_t3_2025_fr.docx
+2025-T3,part_emploi_remunere,statut,Salariés,Rural,57.2,emploi_t3_2025_fr.docx
+2025-T3,part_emploi_remunere,statut,Salariés,Urbain,73.1,emploi_t3_2025_fr.docx
+2025-T3,pop_active_milliers,ensemble,Ensemble,Ensemble,12461.0,emploi_t3_2025_fr.docx
+2025-T3,pop_active_milliers,ensemble,Ensemble,Rural,4281.0,emploi_t3_2025_fr.docx
+2025-T3,pop_active_milliers,ensemble,Ensemble,Urbain,8180.0,emploi_t3_2025_fr.docx
+2025-T3,pop_chomage_milliers,ensemble,Ensemble,Ensemble,1629.0,emploi_t3_2025_fr.docx
+2025-T3,pop_chomage_milliers,ensemble,Ensemble,Rural,294.0,emploi_t3_2025_fr.docx
+2025-T3,pop_chomage_milliers,ensemble,Ensemble,Urbain,1335.0,emploi_t3_2025_fr.docx
+2025-T3,pop_occupee_milliers,ensemble,Ensemble,Ensemble,10833.0,emploi_t3_2025_fr.docx
+2025-T3,pop_occupee_milliers,ensemble,Ensemble,Rural,3987.0,emploi_t3_2025_fr.docx
+2025-T3,pop_occupee_milliers,ensemble,Ensemble,Urbain,6845.0,emploi_t3_2025_fr.docx
+2025-T3,pop_sous_emploi_milliers,ensemble,Ensemble,Ensemble,1199.0,emploi_t3_2025_fr.docx
+2025-T3,pop_sous_emploi_milliers,ensemble,Ensemble,Rural,549.0,emploi_t3_2025_fr.docx
+2025-T3,pop_sous_emploi_milliers,ensemble,Ensemble,Urbain,651.0,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,Activités non déterminées,Ensemble,0.1,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,Activités non déterminées,Rural,0.0,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,Activités non déterminées,Urbain,0.1,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,"Agriculture, forêt et pêche",Ensemble,23.4,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,"Agriculture, forêt et pêche",Rural,56.7,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,"Agriculture, forêt et pêche",Urbain,4.1,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,BTP,Ensemble,12.6,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,BTP,Rural,14.0,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,BTP,Urbain,11.8,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,Industrie (y compris artisanat),Ensemble,12.5,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,Industrie (y compris artisanat),Rural,5.6,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,Industrie (y compris artisanat),Urbain,16.5,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,Services,Ensemble,51.4,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,Services,Rural,23.7,emploi_t3_2025_fr.docx
+2025-T3,structure_emploi,secteur,Services,Urbain,67.5,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,15-24 ans,Ensemble,22.7,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,15-24 ans,Rural,23.4,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,15-24 ans,Urbain,22.2,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,25-34 ans,Ensemble,61.1,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,25-34 ans,Rural,58.9,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,25-34 ans,Urbain,62.1,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,35-44 ans,Ensemble,58.5,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,35-44 ans,Rural,60.0,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,35-44 ans,Urbain,57.9,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,45 ans et plus,Ensemble,38.0,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,45 ans et plus,Rural,46.2,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,age,45 ans et plus,Urbain,34.2,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,diplome,Diplômés,Ensemble,47.0,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,diplome,Diplômés,Rural,43.2,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,diplome,Diplômés,Urbain,48.1,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,diplome,Non diplômés,Ensemble,39.0,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,diplome,Non diplômés,Rural,46.4,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,diplome,Non diplômés,Urbain,33.0,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,ensemble,Ensemble,Ensemble,43.3,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,ensemble,Ensemble,Rural,45.2,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,ensemble,Ensemble,Urbain,42.3,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,sexe,Femmes,Ensemble,19.1,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,sexe,Femmes,Rural,16.8,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,sexe,Femmes,Urbain,20.2,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,sexe,Hommes,Ensemble,68.1,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,sexe,Hommes,Rural,72.3,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,sexe,Hommes,Urbain,65.9,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,15-24 ans,Ensemble,38.4,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,15-24 ans,Rural,24.3,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,15-24 ans,Urbain,48.2,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,25-34 ans,Ensemble,20.8,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,25-34 ans,Rural,9.3,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,25-34 ans,Urbain,25.6,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,35-44 ans,Ensemble,6.9,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,35-44 ans,Rural,2.9,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,35-44 ans,Urbain,8.7,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,45 ans et plus,Ensemble,3.6,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,45 ans et plus,Rural,2.0,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,age,45 ans et plus,Urbain,4.6,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,diplome,Diplômés,Ensemble,19.0,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,diplome,Diplômés,Rural,13.5,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,diplome,Diplômés,Urbain,20.5,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,diplome,Non diplômés,Ensemble,4.7,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,diplome,Non diplômés,Rural,3.1,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,diplome,Non diplômés,Urbain,6.4,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,ensemble,Ensemble,Ensemble,13.1,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,ensemble,Ensemble,Rural,6.9,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,ensemble,Ensemble,Urbain,16.3,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,sexe,Femmes,Ensemble,21.6,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,sexe,Femmes,Rural,9.5,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,sexe,Femmes,Urbain,26.3,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,sexe,Hommes,Ensemble,10.6,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,sexe,Hommes,Rural,6.3,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,sexe,Hommes,Urbain,13.0,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,ensemble,Ensemble,Ensemble,37.6,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,ensemble,Ensemble,Rural,42.1,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,ensemble,Ensemble,Urbain,35.4,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,sexe,Femmes,Ensemble,15.0,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,sexe,Femmes,Rural,15.2,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,sexe,Femmes,Urbain,14.9,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,sexe,Hommes,Ensemble,60.9,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,sexe,Hommes,Rural,67.7,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,sexe,Hommes,Urbain,57.3,emploi_t3_2025_fr.docx
+2025-T3,taux_feminisation_actifs,ensemble,Ensemble,Ensemble,22.4,emploi_t3_2025_fr.docx
+2025-T3,taux_feminisation_actifs,ensemble,Ensemble,Rural,18.2,emploi_t3_2025_fr.docx
+2025-T3,taux_feminisation_actifs,ensemble,Ensemble,Urbain,24.6,emploi_t3_2025_fr.docx
+2025-T3,taux_feminisation_chomeurs,ensemble,Ensemble,Ensemble,37.1,emploi_t3_2025_fr.docx
+2025-T3,taux_feminisation_chomeurs,ensemble,Ensemble,Rural,25.0,emploi_t3_2025_fr.docx
+2025-T3,taux_feminisation_chomeurs,ensemble,Ensemble,Urbain,39.7,emploi_t3_2025_fr.docx
+2025-T3,taux_sous_emploi,ensemble,Ensemble,Ensemble,11.1,emploi_t3_2025_fr.docx
+2025-T3,taux_sous_emploi,ensemble,Ensemble,Rural,13.8,emploi_t3_2025_fr.docx
+2025-T3,taux_sous_emploi,ensemble,Ensemble,Urbain,9.5,emploi_t3_2025_fr.docx
+2025-T3,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Ensemble,5.3,emploi_t3_2025_fr.docx
+2025-T3,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Rural,5.8,emploi_t3_2025_fr.docx
+2025-T3,taux_sous_emploi,forme_sous_emploi,Lié aux revenus et à l'adéquation formation-emploi,Urbain,5.1,emploi_t3_2025_fr.docx
+2025-T3,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Ensemble,5.7,emploi_t3_2025_fr.docx
+2025-T3,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Rural,8.0,emploi_t3_2025_fr.docx
+2025-T3,taux_sous_emploi,forme_sous_emploi,Lié à la durée de travail,Urbain,4.4,emploi_t3_2025_fr.docx

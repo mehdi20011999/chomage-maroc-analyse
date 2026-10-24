@@ -1,0 +1,133 @@
+periode,indicateur,region,valeur,source
+2024-T2,taux_activite,Béni Mellal-Khénifra,40.0,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Casablanca-Settat,47.1,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Drâa-Tafilalet,42.1,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Ensemble,44.2,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Fès-Meknès,41.8,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Marrakech-Safi,44.1,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Oriental,40.4,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Rabat-Salé-Kénitra,43.8,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Régions du Sud,44.8,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Souss-Massa,41.4,emploi_t2_2025_fr.docx
+2024-T2,taux_activite,Tanger-Tétouan-Al Hoceïma,50.1,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Béni Mellal-Khénifra,14.7,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Casablanca-Settat,14.9,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Drâa-Tafilalet,9.6,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Ensemble,13.1,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Fès-Meknès,13.6,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Marrakech-Safi,8.1,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Oriental,21.1,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Rabat-Salé-Kénitra,12.8,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Régions du Sud,22.9,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Souss-Massa,12.1,emploi_t2_2025_fr.docx
+2024-T2,taux_chomage,Tanger-Tétouan-Al Hoceïma,8.9,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Béni Mellal-Khénifra,34.1,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Casablanca-Settat,40.1,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Drâa-Tafilalet,38.0,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Ensemble,38.4,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Fès-Meknès,36.1,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Marrakech-Safi,40.5,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Oriental,31.9,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Rabat-Salé-Kénitra,38.2,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Régions du Sud,34.5,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Souss-Massa,36.4,emploi_t2_2025_fr.docx
+2024-T2,taux_emploi,Tanger-Tétouan-Al Hoceïma,45.6,emploi_t2_2025_fr.docx
+2024-T3,taux_activite,Béni Mellal-Khénifra,39.6,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Casablanca-Settat,45.7,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Drâa-Tafilalet,38.7,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Ensemble,43.6,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Fès-Meknès,43.0,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Marrakech-Safi,43.7,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Oriental,40.2,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Rabat-Salé-Kénitra,43.6,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Régions du Sud,45.4,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Souss-Massa,41.7,emploi_t3_2025_fr.docx
+2024-T3,taux_activite,Tanger-Tétouan-Al Hoceïma,47.6,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Béni Mellal-Khénifra,11.7,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Casablanca-Settat,15.3,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Drâa-Tafilalet,14.2,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Ensemble,13.6,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Fès-Meknès,15.2,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Marrakech-Safi,9.9,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Oriental,21.4,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Rabat-Salé-Kénitra,11.9,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Régions du Sud,24.3,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Souss-Massa,12.1,emploi_t3_2025_fr.docx
+2024-T3,taux_chomage,Tanger-Tétouan-Al Hoceïma,9.9,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Béni Mellal-Khénifra,35.0,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Casablanca-Settat,38.7,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Drâa-Tafilalet,33.2,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Ensemble,37.6,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Fès-Meknès,36.4,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Marrakech-Safi,39.4,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Oriental,31.5,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Rabat-Salé-Kénitra,38.4,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Régions du Sud,34.4,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Souss-Massa,36.6,emploi_t3_2025_fr.docx
+2024-T3,taux_emploi,Tanger-Tétouan-Al Hoceïma,42.9,emploi_t3_2025_fr.docx
+2025-T2,taux_activite,Béni Mellal-Khénifra,39.7,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Casablanca-Settat,45.4,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Drâa-Tafilalet,40.1,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Ensemble,43.4,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Fès-Meknès,42.4,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Marrakech-Safi,43.9,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Oriental,40.4,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Rabat-Salé-Kénitra,43.2,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Régions du Sud,46.6,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Souss-Massa,40.4,emploi_t2_2025_fr.docx
+2025-T2,taux_activite,Tanger-Tétouan-Al Hoceïma,47.9,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Béni Mellal-Khénifra,10.0,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Casablanca-Settat,14.7,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Drâa-Tafilalet,6.4,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Ensemble,12.8,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Fès-Meknès,16.2,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Marrakech-Safi,7.5,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Oriental,21.1,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Rabat-Salé-Kénitra,12.4,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Régions du Sud,25.7,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Souss-Massa,11.4,emploi_t2_2025_fr.docx
+2025-T2,taux_chomage,Tanger-Tétouan-Al Hoceïma,8.9,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Béni Mellal-Khénifra,35.7,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Casablanca-Settat,38.7,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Drâa-Tafilalet,37.5,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Ensemble,37.9,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Fès-Meknès,35.5,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Marrakech-Safi,40.6,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Oriental,31.9,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Rabat-Salé-Kénitra,37.9,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Régions du Sud,34.7,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Souss-Massa,35.8,emploi_t2_2025_fr.docx
+2025-T2,taux_emploi,Tanger-Tétouan-Al Hoceïma,43.7,emploi_t2_2025_fr.docx
+2025-T3,taux_activite,Béni Mellal-Khénifra,39.7,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Casablanca-Settat,46.6,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Drâa-Tafilalet,36.8,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Ensemble,43.3,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Fès-Meknès,43.5,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Marrakech-Safi,42.7,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Oriental,39.7,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Rabat-Salé-Kénitra,42.6,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Régions du Sud,45.9,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Souss-Massa,41.1,emploi_t3_2025_fr.docx
+2025-T3,taux_activite,Tanger-Tétouan-Al Hoceïma,46.6,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Béni Mellal-Khénifra,10.8,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Casablanca-Settat,15.1,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Drâa-Tafilalet,10.6,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Ensemble,13.1,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Fès-Meknès,15.3,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Marrakech-Safi,8.7,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Oriental,21.2,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Rabat-Salé-Kénitra,13.4,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Régions du Sud,21.4,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Souss-Massa,9.9,emploi_t3_2025_fr.docx
+2025-T3,taux_chomage,Tanger-Tétouan-Al Hoceïma,8.6,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Béni Mellal-Khénifra,35.4,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Casablanca-Settat,39.6,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Drâa-Tafilalet,32.9,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Ensemble,37.6,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Fès-Meknès,36.9,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Marrakech-Safi,38.9,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Oriental,31.2,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Rabat-Salé-Kénitra,36.9,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Régions du Sud,36.1,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Souss-Massa,37.0,emploi_t3_2025_fr.docx
+2025-T3,taux_emploi,Tanger-Tétouan-Al Hoceïma,42.6,emploi_t3_2025_fr.docx

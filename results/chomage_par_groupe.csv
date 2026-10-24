@@ -1,0 +1,9 @@
+dimension,categorie,urbain,rural,ensemble
+sexe,Femmes,26.3,9.5,21.6
+sexe,Hommes,13.0,6.3,10.6
+age,15-24 ans,48.2,24.3,38.4
+age,25-34 ans,25.6,9.3,20.8
+age,35-44 ans,8.7,2.9,6.9
+age,45 ans et plus,4.6,2.0,3.6
+diplome,Diplômés,20.5,13.5,19.0
+diplome,Non diplômés,6.4,3.1,4.7
